@@ -1,2 +1,2 @@
-# custom-i2c-driver
-To continue learning post-dissertation, I challenged myself to write a custom I2C driver 
+# EXTI driven I2C driver (bare-metal)
+A custom I2C driver for a system in STOP mode, interrupt by an EXTI. 
