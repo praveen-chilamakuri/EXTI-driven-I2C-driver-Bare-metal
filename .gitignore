@@ -1,0 +1,72 @@
+# ============================
+# Build folders (CubeIDE / Makefile)
+# ============================
+Debug/
+!Debug/makefile
+!Debug/objects.mk
+!Debug/sources.mk
+
+Release/
+build/
+
+# ============================
+# CubeIDE metadata (junk)
+# ============================
+.settings/
+.metadata/
+*.launch
+
+# ============================
+# Build artifacts
+# ============================
+*.o
+*.obj
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+*.log
+
+# ============================
+# CMSIS junk (ignore all cores except CM4)
+# ============================
+Drivers/CMSIS/Include/core_*
+!Drivers/CMSIS/Include/core_cm4.h
+
+Drivers/CMSIS/Include/mpu_*
+Drivers/CMSIS/Include/pac_*
+Drivers/CMSIS/Include/pmu_*
+Drivers/CMSIS/Include/tz_context.h
+
+# Keep essential CMSIS headers
+!Drivers/CMSIS/Include/cmsis_compiler.h
+!Drivers/CMSIS/Include/cmsis_gcc.h
+!Drivers/CMSIS/Include/cmsis_version.h
+
+# ============================
+# Semihosting / newlib files
+# ============================
+Core/Src/syscalls.c
+Core/Src/sysmem.c
+
+# ============================
+# OS junk
+# ============================
+Thumbs.db
+.DS_Store
+
+# ============================
+# Backup / temp files
+# ============================
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# ============================
+# OneDrive sync conflicts
+# ============================
+*.lnk
+*.tmp
+~$*
