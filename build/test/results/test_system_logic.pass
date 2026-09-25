@@ -1,0 +1,27 @@
+---
+:source:
+  :file: test/test_system_logic.c
+  :dirname: test
+  :basename: test_system_logic.c
+:successes:
+- :test: test_system_process_no_exti_should_do_nothing
+  :line: 8
+  :message: ''
+  :unity_test_time: 0
+- :test: test_system_process_exti_crc_ok_should_return_0
+  :line: 16
+  :message: ''
+  :unity_test_time: 0
+- :test: test_system_process_exti_crc_fail_should_return_1
+  :line: 26
+  :message: ''
+  :unity_test_time: 0
+:failures: []
+:ignores: []
+:counts:
+  :total: 3
+  :passed: 3
+  :failed: 0
+  :ignored: 0
+:stdout: []
+:time: 0.048646500101312995

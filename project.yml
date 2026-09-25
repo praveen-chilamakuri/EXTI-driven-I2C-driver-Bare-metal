@@ -1,0 +1,33 @@
+:project:
+  :name: Baremetal Project
+  :use_mocks: TRUE
+  :test_file_prefix: test_
+  :build_root: build
+
+:paths:
+  :source:
+    - src
+  :include:
+    - src
+  :test:
+    - test
+
+:cmock:
+  :mock_prefix: mock_
+  :plugins:
+    - :ignore
+    - :callback
+
+:modules:
+  :cmock:
+    :mock:
+      - sht31_hw
+      - sht31_readraw_crc
+
+:unity:
+  :defines:
+    - UNITY_EXCLUDE_FLOAT
+
+:defines:
+  :test:
+    - TEST

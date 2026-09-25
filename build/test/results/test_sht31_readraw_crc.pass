@@ -1,0 +1,31 @@
+---
+:source:
+  :file: test/test_sht31_readraw_crc.c
+  :dirname: test
+  :basename: test_sht31_readraw_crc.c
+:successes:
+- :test: test_readraw_crc_ok_should_return_0
+  :line: 9
+  :message: ''
+  :unity_test_time: 0
+- :test: test_readraw_crc_fail_temp_should_return_1
+  :line: 22
+  :message: ''
+  :unity_test_time: 0
+- :test: test_readraw_crc_fail_humidity_should_return_1
+  :line: 35
+  :message: ''
+  :unity_test_time: 0
+- :test: test_readraw_crc_both_fail_temp_humidity_should_return_1
+  :line: 48
+  :message: ''
+  :unity_test_time: 0
+:failures: []
+:ignores: []
+:counts:
+  :total: 4
+  :passed: 4
+  :failed: 0
+  :ignored: 0
+:stdout: []
+:time: 0.05122959997970611

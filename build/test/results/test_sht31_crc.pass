@@ -1,0 +1,23 @@
+---
+:source:
+  :file: test/test_sht31_crc.c
+  :dirname: test
+  :basename: test_sht31_crc.c
+:successes:
+- :test: test_crc_should_match_known_value_BE_EF
+  :line: 7
+  :message: ''
+  :unity_test_time: 0
+- :test: test_crc_should_match_known_value_12_34
+  :line: 14
+  :message: ''
+  :unity_test_time: 0
+:failures: []
+:ignores: []
+:counts:
+  :total: 2
+  :passed: 2
+  :failed: 0
+  :ignored: 0
+:stdout: []
+:time: 0.046311500016599894
