@@ -70,3 +70,14 @@ Thumbs.db
 *.lnk
 *.tmp
 ~$*
+
+# ============================
+# Ceedling (unit test project)
+# ============================
+Ceedling Tests/build/
+Ceedling Tests/artifacts/
+Ceedling Tests/vendor/ceedling/plugins/tmp/
+Ceedling Tests/vendor/ceedling/tmp/
+*.gcda
+*.gcno
+*.gcov
